@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    /* background-color: #b8b9ba; */
+}
+
+header{
+    /* border: 2px solid black; */
+    background-color:  black;
+    height: 50px;
+    width: 100%;
+}
+
+    header nav ol{
+        display: flex;
+        list-style-type: none;
+        justify-content: space-around;
+        line-height: 49px
+    }
+
+    header nav ol li{
+       padding-right: 18px;
+        
+    }
+
+    header nav ol li a{
+        text-decoration: none;
+
+    }
+    header nav ol li a span{
+        color: white;
+    }
+
+    header nav ol li a span:hover{
+        color: #8297a4;
+        /* border: 2px solid whitesmoke; */
+    }
+    /* #img{
+        width: 70px;
+        margin-top: 4px;
+    } */
+/* 
+.pic{
+    border: 1px solid red;
+    width: 100%;
+    height: 500px;
+} */
+/* 
+.pic img{
+    width: 100%;
+} */
+
+body{
+    background-color: #8297a4;
+}
+
+form{
+    border: 2px solid white;
+    width: 300px;
+    height: 350px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: white;
+}
+
+.main-heading{
+    margin-left: 78px;
+    margin-top: 35px;
+    padding-bottom: 35px;
+    font-size: 28px;
+}
+
+.heading1{
+    margin-left: 34px;
+}
+
+#email{
+    font-size: 12px;
+}
+
+.heading2{
+    margin-left: 34px;
+}
+
+#passw{
+    font-size: 12px;
+}
+
+#Forget{
+    margin-left: 34px;
+    font-size: 13px;
+    color: #2600d1;
+}
+
+input{
+    width: 232px;
+    height: 30px;
+}
+
+button{
+    margin-left: 34px;
+    width: 237px;
+    margin-top: 16px;
+    height: 30px;
+    background-color: #6b95e4;
+    color: white;
+    border: none;
+}
+
+#end{
+    margin-left: 74px;
+    font-size: 12px;
+    margin-top: 23px;
+}
+
+#head{
+    color: #2600d1;
+}
