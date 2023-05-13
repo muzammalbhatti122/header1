@@ -10,10 +10,26 @@ body{
 
 header{
     /* border: 2px solid black; */
-    background-color:  black;
+    background-color:  rgb(234, 42, 42);
     height: 50px;
     width: 100%;
 }
+
+#menu{
+    display: none;
+}
+@media screen and (max-width:590px){
+    header nav ol li{
+        display: none;
+     }
+     
+#menu{
+    display: block;
+    position: relative;
+    left: 262px;
+}
+}
+
 
     header nav ol{
         display: flex;
